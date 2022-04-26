@@ -17,10 +17,6 @@ public class Vertex {
         edges.add(edge);
     }
 
-    public void removeEdge(Edge edge){
-        edges.remove(edge);
-    }
-
     public ArrayList<Edge> getEdges() {
         return edges;
     }

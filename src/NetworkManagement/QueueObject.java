@@ -18,16 +18,4 @@ public class QueueObject implements Comparable<QueueObject>{
     public Vertex getVertex() {
         return vertex;
     }
-
-    public void setVertex(Vertex vertex) {
-        this.vertex = vertex;
-    }
-
-    public int getPriority() {
-        return priority;
-    }
-
-    public void setPriority(int priority) {
-        this.priority = priority;
-    }
 }

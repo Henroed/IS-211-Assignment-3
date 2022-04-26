@@ -16,25 +16,15 @@ public class Edge {
         return start;
     }
 
-    public void setStart(Vertex start) {
-        this.start = start;
-    }
-
     public Vertex getEnd() {
         return end;
     }
 
-    public void setEnd(Vertex end) {
-        this.end = end;
-    }
 
     public int getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
 
     @Override
     public String toString(){
